@@ -34,6 +34,33 @@ const blogPosts = [
     readTime: "5 min read",
     category: "Tutorials",
     slug: "understanding-unix-timestamps"
+  },
+  {
+    id: 4,
+    title: "How to Optimize API Response Speed with JSON Formatter",
+    excerpt: "Learn how formatting and minifying JSON can improve your application performance and reduce bandwidth.",
+    date: "May 8, 2026",
+    readTime: "7 min read",
+    category: "Tutorials",
+    slug: "how-to-optimize-api-speed-with-json-formatter"
+  },
+  {
+    id: 5,
+    title: "Boost Website Performance: Image Optimization Guide",
+    excerpt: "Discover how to reduce image file sizes and improve page load speeds without sacrificing quality.",
+    date: "May 8, 2026",
+    readTime: "10 min read",
+    category: "SEO",
+    slug: "boost-website-performance-image-optimization-guide"
+  },
+  {
+    id: 6,
+    title: "Secure Your Digital Life: Password Generation Tutorial",
+    excerpt: "Learn why complex passwords are your best defense and how to generate them effectively using secure APIs.",
+    date: "May 8, 2026",
+    readTime: "6 min read",
+    category: "Security",
+    slug: "secure-your-digital-life-password-generation-tutorial"
   }
 ];
 

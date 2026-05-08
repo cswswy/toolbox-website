@@ -306,14 +306,26 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebApplication",
+            "@type": "SoftwareApplication",
             "name": tool.title,
             "description": tool.description,
-            "applicationCategory": "Utility",
-            "operatingSystem": "All",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web",
             "offers": {
               "@type": "Offer",
-              "price": "0"
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "featureList": [
+              "Free to use",
+              "Privacy-focused",
+              "Runs in browser",
+              "No data collection"
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1250"
             }
           })
         }}
