@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-domain.com",
+    url: new URL("https://cswswy.cn"),
     siteName: "Online Toolbox",
     title: "Online Toolbox - Free SEO & Developer Tools",
     description: "A collection of free, high-quality online tools for developers and SEO professionals.",
