@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cswswy.cn/sitemap.xml

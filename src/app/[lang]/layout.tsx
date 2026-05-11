@@ -24,6 +24,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     },
     description: lang === 'zh' ? "为开发者和 SEO 专业人士提供的一系列免费、高质量的在线工具。快速、安全且易于使用。" : "A collection of free, high-quality online tools for developers and SEO professionals. Fast, secure, and easy to use.",
     metadataBase: new URL("https://cswswy.cn"),
+    alternates: {
+      canonical: `https://cswswy.cn/${lang}`,
+      languages: {
+        'en': 'https://cswswy.cn/en',
+        'zh': 'https://cswswy.cn/zh',
+      },
+    },
   }
 }
 
