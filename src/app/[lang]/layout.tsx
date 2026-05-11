@@ -31,6 +31,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
         'zh': 'https://cswswy.cn/zh',
       },
     },
+    verification: {
+      google: "Zy9c22J9I91n6lacSWUgKEBxsGl89w6OScBLWbMv4Ww",
+    },
   }
 }
 
